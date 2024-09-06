@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-    <title> ☾ D R E A M  I C O N S ☾ </title>
+    <title> ☾ D R E A M ☾ </title>
     <style>
         .row{
             width:720px;
@@ -38,11 +38,12 @@ Icons for DMS1
 
 <script>
 const cir_variable = document.getElementById ('cir_id')
-const cir_audio = new Audio ('sounds/BEEP.mp3')
+const cir_audio = new Audio ('iconsounds/star.mp3')
 cir_variable.onpointerdown = () => {
     cir_audio.play ()
-    cir_variable.src = 'img/tri.png'
+    cir_variable.src = 'icons/ICON1_2.png'
 }
+
 
 const tri_variable = document.getElementById ('tri_id')
 const tri_audio = new Audio ('sounds/Click.mp3')
@@ -50,4 +51,11 @@ tri_variable.onpointerdown = () => {
     tri_audio.play ()
     tri_variable.src = 'img/cir.png'
     }
+    const squ_variable = document.getElementById ('squ_id')
+    const squ_audio = new Audio ('iconsounds/alarm.mp3')
+    squ_variable.onpointerdown = () => {
+        squ_audio.play ()
+        squ_variable.src = 'icons/ICON3_1'
+    }
+
 </script>
