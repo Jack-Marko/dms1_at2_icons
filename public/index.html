@@ -51,11 +51,35 @@ tri_variable.onpointerdown = () => {
     tri_audio.play ()
     tri_variable.src = 'icons/ICON2_2.png'
     }
+    
     const squ_variable = document.getElementById ('squ_id')
     const squ_audio = new Audio ('iconsounds/alarm.mp3')
     squ_variable.onpointerdown = () => {
         squ_audio.play ()
-        squ_variable.src = 'icons/ICON3_1.png'
+        squ_variable.src = 'icons/ICON3_2.png'
     }
+
+const hex_variable = document.getElementById (hex_id)
+const hex_audio = new Audio ('iconsounds/dream.mp3')
+hex_variable.onpointerdown = () => {
+    hex_audio.play ()
+    hex_variable.src = 'icons/ICON4_2.png'
+}
+
+const rec_variable = document.getElementById (rec_id)
+const rec_audio = new Audio ('iconsounds/settings.mp3')
+rec_variable.onpointerdown = () => {
+    rec_audio.play ()
+    rec_variable.src = 'icons/ICON5_2.png'
+}
+
+const sta_variable = document.getElementById (sta_id)
+const sta_audio = new Audio ('iconsounds/user.mp3')
+sta_variable.onpointerdown = () => {
+    sta_audio.play ()
+    sta_variable.src = 'icons/ICON6_2'
+}
+
+
 
 </script>
