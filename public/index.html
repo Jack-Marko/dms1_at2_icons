@@ -77,9 +77,28 @@ const sta_variable = document.getElementById ('sta_id')
 const sta_audio = new Audio ('iconsounds/user.mp3')
 sta_variable.onpointerdown = () => {
     sta_audio.play ()
-    sta_variable.src = 'icons/ICON6_2'
+    sta_variable.src = 'icons/ICON6_2.png'
 }
 
+const trr_variable = document.getElementById ('trr_id')
+const trr_audio = new Audio ('iconsounds/white noise.mp3')
+trr_variable.onpointerdown = () => {
+    trr_audio.play ()
+    trr_variable.src = 'icons/ICON7_2.png'
+}
 
+const sqr_variable = document.getElementById ('sqr_id')
+const sqr_audio = new Audio ('iconsounds/friends.mp3')
+sqr_variable.onpointerdown = () => {
+    sqr_audio.play ()
+    sqr_variable.src = 'icons/ICON8_1.png'
+}
+
+const her_variable = document.getElementById ('her_id')
+const her_audio = new Audio ('iconsounds/recording.mp3')
+her_variable.onpointerdown = () => {
+    her_audio.play ()
+    her_variable.src = 'icons/ICON9_2.png'
+}
 
 </script>
